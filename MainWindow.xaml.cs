@@ -34,10 +34,14 @@ namespace yty_wpf_180508_02
 
             for (int i = 0; i < 10; i++)
             {
+                //内存new列定义
                 ColumnDefinition cd = new ColumnDefinition();
+                //gridName的列自行添加10次
                 gridName.ColumnDefinitions.Add(cd);
 
+                //内存new行定义
                 RowDefinition rd = new RowDefinition();
+                //gridName的行自行添加10次
                 gridName.RowDefinitions.Add(rd);
             }
 
@@ -78,9 +82,9 @@ namespace yty_wpf_180508_02
                     Image img = new Image();
                     //引用图片
                     img.Source = new BitmapImage(new Uri("img/" + imgNum + ".png", UriKind.Relative));
-                    //设置每行图片
+                    //设置行图片
                     Grid.SetRow(img, i);
-                    //设置每列图片
+                    //设置列图片
                     Grid.SetColumn(img, j);
                     gridName.Children.Add(img);
                 }
