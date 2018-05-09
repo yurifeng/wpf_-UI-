@@ -1,0 +1,14 @@
+c:\users\administrator\documents\visual studio 2015\Projects\yty_wpf_180508_01\yty_wpf_180508_02\bin\Debug\yty_wpf_180508_02.exe.config
+c:\users\administrator\documents\visual studio 2015\Projects\yty_wpf_180508_01\yty_wpf_180508_02\bin\Debug\yty_wpf_180508_02.exe
+c:\users\administrator\documents\visual studio 2015\Projects\yty_wpf_180508_01\yty_wpf_180508_02\bin\Debug\yty_wpf_180508_02.pdb
+c:\users\administrator\documents\visual studio 2015\Projects\yty_wpf_180508_01\yty_wpf_180508_02\obj\Debug\MainWindow.g.cs
+c:\users\administrator\documents\visual studio 2015\Projects\yty_wpf_180508_01\yty_wpf_180508_02\obj\Debug\App.g.cs
+c:\users\administrator\documents\visual studio 2015\Projects\yty_wpf_180508_01\yty_wpf_180508_02\obj\Debug\yty_wpf_180508_02_MarkupCompile.cache
+c:\users\administrator\documents\visual studio 2015\Projects\yty_wpf_180508_01\yty_wpf_180508_02\obj\Debug\yty_wpf_180508_02_MarkupCompile.lref
+c:\users\administrator\documents\visual studio 2015\Projects\yty_wpf_180508_01\yty_wpf_180508_02\obj\Debug\MainWindow.baml
+c:\users\administrator\documents\visual studio 2015\Projects\yty_wpf_180508_01\yty_wpf_180508_02\obj\Debug\yty_wpf_180508_02.g.resources
+c:\users\administrator\documents\visual studio 2015\Projects\yty_wpf_180508_01\yty_wpf_180508_02\obj\Debug\yty_wpf_180508_02.Properties.Resources.resources
+c:\users\administrator\documents\visual studio 2015\Projects\yty_wpf_180508_01\yty_wpf_180508_02\obj\Debug\yty_wpf_180508_02.csproj.GenerateResource.Cache
+c:\users\administrator\documents\visual studio 2015\Projects\yty_wpf_180508_01\yty_wpf_180508_02\obj\Debug\yty_wpf_180508_02.exe
+c:\users\administrator\documents\visual studio 2015\Projects\yty_wpf_180508_01\yty_wpf_180508_02\obj\Debug\yty_wpf_180508_02.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\yty_wpf_180508_01\yty_wpf_180508_02\obj\Debug\yty_wpf_180508_02.csprojResolveAssemblyReference.cache
