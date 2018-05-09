@@ -41,21 +41,48 @@ namespace yty_wpf_180508_02
                 gridName.RowDefinitions.Add(rd);
             }
 
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    for (int j = 0; j < 10; j++)
+            //    {
+            //        Button btn = new Button();
+            //        btn.Content = i + "," + j;
+
+            //        //通过代码修改控件的Grid.Row
+            //        Grid.SetRow(btn, i);
+            //        //通过代码修改控件的Grid.Column
+            //        Grid.SetColumn(btn, j);
+
+            //        gridName.Children.Add(btn);
+
+
+            //    }
+            //}
+
+            Random r = new Random();
+            //前闭后开区间
+            //随机生成一个大于等于0，小于99的随机整数
+            //int hehe = r.Next(0, 99);
+            
+
+
             for (int i = 0; i < 10; i++)
             {
                 for (int j = 0; j < 10; j++)
                 {
-                    Button btn = new Button();
-                    btn.Content = i + "," + j;
 
-                    //通过代码修改控件的Grid.Row
-                    Grid.SetRow(btn, i);
-                    //通过代码修改控件的Grid.Column
-                    Grid.SetColumn(btn, j);
-
-                    gridName.Children.Add(btn);
-
+                    //随机生成1到9之间的数字，也就是图片
+                    int imgNum = r.Next(1, 10);
                     
+                    //new出image控件
+                    Image img = new Image();
+                    //引用图片
+                    img.Source = new BitmapImage(new Uri("img/" + imgNum + ".png", UriKind.Relative));
+                    //设置每行图片
+                    Grid.SetRow(img, i);
+                    //设置每列图片
+                    Grid.SetColumn(img, j);
+                    gridName.Children.Add(img);
                 }
             }
         }
